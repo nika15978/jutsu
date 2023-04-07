@@ -7,7 +7,7 @@
 }
 
 main .bottom #main-content #anime-content #anime-header #anime-img {
-    background-image: url(https://gen.jut.su/uploads/animethumbs/anime_shingeki-no-kyojin.jpg);
+    background-image: url(https://gen.jut.su/uploads/animethumbs/anime_shingeki-no-kyojin.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
