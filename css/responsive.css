@@ -435,10 +435,11 @@
 
     main .bottom #main-content #anime-content #video {
         margin: 40% auto;
+        box-sizing: border-box;
     }
 
     main .bottom #main-content #anime-content #video .epizodes {
-        margin: 15px 5px;
+        margin: 15px auto;
     }
 
     main .bottom .main-content .left-content {
