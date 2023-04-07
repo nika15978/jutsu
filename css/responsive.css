@@ -433,6 +433,14 @@
         width: 100%;
     }
 
+    main .bottom #main-content #anime-content #video {
+        margin: 40% auto;
+    }
+
+    main .bottom #main-content #anime-content #video .epizodes {
+        margin: 15px 5px;
+    }
+
     main .bottom .main-content .left-content {
         display: flex;
         flex-direction: column;

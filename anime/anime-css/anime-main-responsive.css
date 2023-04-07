@@ -98,9 +98,7 @@
 }
 
 @media screen and (max-width:481px) {
-    main .bottom #main-content #anime-content #video video {
-        margin: 30% auto 5%;
-    }
+
 
     main .bottom #main-content #anime-content #series-number {
         display: grid;
@@ -156,6 +154,8 @@
 
     }
 
+
+
     main .bottom #main-content #anime-content #anime-header #anime-name h3 {
         font-size: 1.5rem;
         font-weight: 400;
@@ -164,5 +164,3 @@
     }
 
 }
-
-@media screen and (max-width:300px) {}
