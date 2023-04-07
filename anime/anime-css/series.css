@@ -1,0 +1,86 @@
+#video video {
+    display: flex;
+    max-width: 700px;
+    width: 98%;
+
+    margin: 20% auto 5%;
+}
+
+#video .epizodes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-left: 10%;
+
+}
+
+#video .epizodes .allepizode {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video .epizodes .allepizode a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3f464c;
+}
+
+#video .epizodes .allepizode a:hover {
+    background-color: #505458
+}
+
+#video .epizodes .next {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#video .epizodes .back {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#video .epizodes .next a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #9dc532;
+}
+
+#video .epizodes .back a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #9dc532;
+}
+
+#video .epizodes .next a:hover {
+    color: #4C6802;
+    background: #BDE74C
+}
+
+#video .epizodes .back a:hover {
+    color: #4C6802;
+    background: #BDE74C
+}

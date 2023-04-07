@@ -1,0 +1,479 @@
+@media (max-width:976px) {
+    header .navbar ul .moon {
+        display: none;
+    }
+}
+
+@media (max-width:790px) {
+    header {
+        padding: 20px;
+    }
+
+    header .hidden-moon {
+        display: initial;
+    }
+
+    header .navbar ul .moon {
+        display: none;
+    }
+
+    header label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        border: #617c42 solid 1px;
+        background-color: #81A834;
+        width: 30px;
+        height: 30px;
+
+
+    }
+
+    header label:active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: #81A834 solid 1px;
+        background-color: #81A834;
+        width: 30px;
+        height: 30px;
+        box-shadow: #333 3px 3px 4px 3px;
+        transition: .1s ease;
+
+    }
+
+
+    header .navbar {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        background: #95c361;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+
+        width: 100%;
+        transition: all .5s ease;
+        max-width: 100px;
+        z-index: 10;
+
+    }
+
+    header .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+
+    }
+
+    header .navbar ul li a {
+
+        background-image: none;
+    }
+
+    header .navbar ul li a,
+    header .navbar ul li .active {
+        background-image: none;
+
+    }
+
+
+
+
+    header .navbar ul li ul li {
+
+        width: 80px;
+        height: 90px;
+        margin: 10px auto
+    }
+
+    header .navbar ul li ul li a .ninjutsu:hover {
+        background: linear-gradient(to bottom, #c6e262 0, #95c361 100%);
+        width: 80px;
+        height: 100%;
+    }
+
+    header .navbar ul li:focus-within>ul,
+    header .navbar ul li:hover>ul {
+        display: flex;
+        flex-direction: column;
+        left: -110%;
+        flex-wrap: wrap;
+
+
+    }
+
+    header .navbar ul li:focus-within>.ul7,
+    header .navbar ul li:hover>.ul7 {
+        display: flex;
+        flex-direction: column;
+        left: -400%;
+        flex-wrap: wrap;
+
+    }
+
+    #menu-bar:checked~.navbar {
+        display: initial;
+        right: 0;
+
+    }
+
+
+    header .navbar ul li .hover1:hover {
+        width: 90px;
+        height: 90px;
+        color: #617c42;
+        position: relative;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 0 2px;
+        padding: 20px;
+        background: none;
+    }
+}
+
+@media(max-width:791px) {
+
+    header .navbar ul li .ul2 {
+        position: absolute;
+        left: 100%;
+        top: -256%;
+        height: max-content;
+        width: 110%;
+        background: #ffffff;
+        display: none;
+
+
+    }
+
+    header .navbar ul li .ul3 {
+        position: absolute;
+        left: 100%;
+        top: -201%;
+        height: max-content;
+        width: 110%;
+        background: #ffffff;
+        display: none;
+    }
+
+    header .navbar ul li .ul4 {
+        position: absolute;
+        left: 100%;
+        top: -101%;
+        height: max-content;
+        width: 110%;
+        background: #ffffff;
+        display: none;
+    }
+
+    header .navbar ul li .ul5 {
+        position: absolute;
+        left: 100%;
+        top: -201%;
+        height: max-content;
+        width: 110%;
+        background: #ffffff;
+        display: none;
+    }
+
+    header .navbar ul li .ul6 {
+        position: absolute;
+        left: 100%;
+        top: -100%;
+        height: max-content;
+        width: 110%;
+        background: #ffffff;
+        display: none;
+    }
+
+    header .navbar ul li .ul7 {
+        position: absolute;
+
+        top: -1px;
+        height: max-content;
+        width: 400%;
+        height: 360px;
+
+
+        display: none;
+        box-sizing: border-box;
+    }
+
+
+    header .navbar ul li ul li a .ninjutsu:hover {
+        width: 80px;
+        height: 120px;
+        margin-top: 10px;
+        border-radius: 5px 5px 0 0;
+
+
+        border-bottom: #c6e262 solid 1px;
+    }
+
+    header .navbar ul li ul li a .ninjutsu {
+        width: 80px;
+        height: 120px;
+        margin-top: 10px;
+        border-radius: 5px 5px 0 0;
+        display: block;
+        grid-template-columns: repeat(2, 1fr);
+
+
+        z-index: 1;
+        border-bottom: #c6e262 solid 1px;
+    }
+
+
+}
+
+
+
+
+@media (max-width:1270px) {
+
+    main .bottom .main-content .left-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr auto;
+    }
+}
+
+@media (max-width:1170px) {
+    main .middle .top .web-link label {
+        display: inline;
+    }
+
+    main .middle .top .web-link #middle-burger {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: fixed;
+        width: 200px;
+        height: 100%;
+        left: -100%;
+        top: 0%;
+        z-index: 15;
+        transition: all .5s ease;
+        background-color: #9fba74;
+
+    }
+
+
+    main .middle .top .web-link #check2:checked~#middle-burger {
+        left: 0px;
+    }
+
+    header {
+        margin: 0 auto;
+    }
+
+    main .middle .top .search input {
+        width: 300px;
+
+    }
+
+
+
+    main .bottom .main-content .left-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr auto;
+        place-items: center;
+
+
+    }
+
+    main .bottom .footer {
+        display: none;
+    }
+
+    main .bottom .footer .footer-top a {
+        display: none;
+
+    }
+
+    main .bottom .footer .footer-top {
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-image: url(https://gen.jut.su/templates/school/images/footer-bg.png);
+    }
+
+
+    main .bottom .main-content .right-content {
+        display: none;
+
+    }
+
+    main .bottom #main-content .right-content {
+        display: none;
+
+    }
+
+    main .bottom #main-content {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main .bottom #left-content {
+        flex-direction: column;
+
+    }
+
+    main .bottom #left-content .water {
+        justify-content: center;
+    }
+
+    main .bottom #left-content .water #water-teqniq {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main .middle .top .search {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:987px) {
+    main .bottom #left-content .water #water-teqniq {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main .bottom #main-content {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width:877px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .navbar {
+        width: 100%;
+    }
+
+    main .bottom .main-content .left-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr auto;
+
+
+    }
+
+
+
+}
+
+@media (max-width:657px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .navbar {
+        width: 100%;
+    }
+
+    main .bottom .main-content .left-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr auto;
+
+
+    }
+
+    main .bottom #left-content .water #water-teqniq {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    main .middle .top .search {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width:440px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .navbar {
+        width: 100%;
+    }
+
+    main .bottom .main-content .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 70px;
+    }
+
+    main .bottom #main-content {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main .bottom #left-content {
+        margin: 0 auto;
+    }
+
+    main .bottom #left-content .water #water-teqniq {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    main .middle .top .web-link .vk {
+        display: none;
+    }
+
+}
+
+@media (max-width:390px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .navbar {
+        width: 100%;
+    }
+
+}

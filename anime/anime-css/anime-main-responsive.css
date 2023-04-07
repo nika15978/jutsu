@@ -1,0 +1,166 @@
+@media (max-width:819px) {
+
+
+    main .bottom #main-content #anime-content #series-number {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    main .bottom #main-content #anime-content #anime-header #anime-name {
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+
+
+    }
+
+    main .bottom #main-content #anime-content #anime-header #anime-name h3 {
+        font-size: 1.5rem;
+        margin: 0 0 0 90px;
+
+    }
+
+    main .bottom #main-content #anime-content #series-number {
+        display: grid;
+
+        place-items: center;
+        margin-top: 30%;
+        row-gap: 15px;
+        width: 98%;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:707px) {
+    main .bottom #main-content #anime-content #anime-header #anime-name h3 {
+        font-size: 1.5rem;
+        margin: 0 0 0 90px;
+        width: 300px;
+        display: flex;
+
+    }
+
+}
+
+@media (max-width:650px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    main .bottom #main-content #anime-content #series-number {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    main .bottom #main-content #anime-content #series-number .season {
+        position: absolute;
+
+        top: 10%;
+
+    }
+
+    main .bottom #main-content #anime-content #video {
+        margin-top: 40%;
+    }
+
+    main .bottom #main-content #anime-content #video .epizodes {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width:560px) {
+    main .bottom #main-content #anime-content #series-number {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main .bottom #main-content #anime-content #series-number {
+        display: grid;
+
+        place-items: center;
+        margin-top: 45%;
+        row-gap: 15px;
+        width: 98%;
+        margin-left: 5px;
+    }
+
+
+    main .bottom #main-content #anime-content #series-number .season {
+        position: absolute;
+
+        top: 10%;
+
+    }
+}
+
+@media screen and (max-width:481px) {
+
+
+    main .bottom #main-content #anime-content #series-number {
+        display: grid;
+
+        place-items: center;
+        margin-top: 50%;
+        row-gap: 15px;
+        width: 98%;
+        margin-left: 2px;
+    }
+
+    main .bottom #main-content #anime-content #series-number .season {
+        position: absolute;
+
+        top: 8%;
+
+    }
+
+    main .bottom #main-content #anime-content #anime-header #anime-name {
+        background-color: #eef5cd;
+        width: 100%;
+        position: absolute;
+        border: 1px solid #acce0d;
+        border-right: none;
+        border-radius: 100px 0 0 100px;
+        height: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        font-size: 1.5rem;
+        left: 5px;
+
+    }
+
+
+}
+
+@media screen and (max-width:417px) {
+    main .bottom #main-content #anime-content {
+        box-sizing: border-box;
+    }
+
+    main .bottom #main-content #anime-content #series-number {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main .bottom #main-content #anime-content #series-number .season {
+        position: absolute;
+
+        top: 6.5%;
+
+    }
+
+    main .bottom #main-content #anime-content #anime-header #anime-name h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 0 0 0 100px;
+
+    }
+
+}
+
+@media screen and (max-width:300px) {}

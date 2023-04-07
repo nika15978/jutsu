@@ -1,0 +1,184 @@
+#elite {
+    background-image: url(https://gen.jut.su/chakranature/background_anime_shugi-no-kyoushitsu.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+    height: 100%;
+}
+
+
+
+main .section-top a div,
+main .section-top a div:active {
+    position: relative;
+    top: -19%;
+    left: 10%;
+    color: #505458;
+    font-family: Arial, Helvetica, sans-serif;
+    width: max-content;
+}
+
+main .bottom #main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+main .bottom #main-content #anime-content #anime-header {
+    margin-top: 15px;
+    width: 98%;
+    display: flex;
+
+
+    position: relative;
+    flex-direction: column;
+
+
+
+}
+
+main .bottom #main-content #anime-content #anime-header a #anime-image {
+    background-image: url(https://gen.jut.su/uploads/animethumbs/anime_shingeki-no-kyojin.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+main .bottom #main-content #anime-content #anime-header #anime-name {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+
+}
+
+main .bottom #main-content #anime-content #anime-header #anime-name h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 0 90px;
+
+}
+
+
+main .bottom #main-content #anime-content #anime-header #anime-name {
+    background-color: #eef5cd;
+    width: 100%;
+    position: absolute;
+    border: 1px solid #acce0d;
+    border-right: none;
+    border-radius: 100px 0 0 100px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    left: 5px;
+
+}
+
+main .bottom #main-content #anime-content #series-number {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    margin-top: 20%;
+    row-gap: 15px;
+    width: 98%;
+    margin-left: 5px;
+}
+
+main .bottom #main-content #anime-content .series-number {
+    margin-top: 15% !important;
+}
+
+
+
+
+main .bottom #main-content #anime-content #series-number .series,
+main .bottom #main-content #anime-content #series-number .series2 {
+
+    width: 120px;
+    height: 40px;
+
+    border-radius: 5px;
+
+
+}
+
+main .bottom #main-content #anime-content #series-number .series a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9DC532;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 4px;
+}
+
+main .bottom #main-content #anime-content #series-number .series a:hover {
+    background-color: #BDE74C;
+    color: #4C6802;
+}
+
+main .bottom #main-content #anime-content #series-number .series2 a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3f464c;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 4px;
+}
+
+main .bottom #main-content #anime-content #series-number .series2 a:hover {
+    background: #505458;
+}
+
+main .bottom #main-content #anime-content #series-number .season {
+    position: absolute;
+
+    top: 12%;
+
+}
+
+main .bottom #main-content #anime-content #series-number .season2 {
+    position: absolute;
+
+    top: 30%;
+
+}
+
+main .bottom #main-content #anime-content #anime-info {
+    width: 96%;
+    margin-left: 15px;
+    margin-top: 10%;
+    border-radius: 5%;
+    background-color: #eef5cd;
+    border: 1px transparent;
+}
+
+main .bottom #main-content #anime-content #anime-info a {
+    color: #75AB0E;
+    margin-left: 5px;
+}
+
+main .bottom #main-content #anime-content #anime-info #top {
+    padding: 10px;
+}
+
+
+main .bottom #main-content #anime-content #anime-info #bottom {
+    border-top: 1px solid #acce0d;
+    padding: 10px;
+}

@@ -1,0 +1,21 @@
+#elite {
+    background-image: url("https://gen.jut.su/chakranature/background_anime_shugi-no-kyoushitsu.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+    height: 100%;
+}
+
+main .bottom #main-content #anime-content #anime-header #anime-img {
+    background-image: url("https://gen.jut.su/uploads/animethumbs/anime_shugi-no-kyoushitsu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
