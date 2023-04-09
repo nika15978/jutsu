@@ -433,6 +433,14 @@
         width: 100%;
     }
 
+    header .navbar ul li:focus-within>ul,
+    header .navbar ul li:hover>ul {
+        display: none;
+
+
+
+    }
+
     main .bottom #main-content #anime-content #video {
         margin: 40% auto;
         box-sizing: border-box;

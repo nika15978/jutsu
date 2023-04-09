@@ -1,0 +1,198 @@
+#dojutsu {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_dojutsu.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+
+}
+
+#genjutsu {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_genjutsu.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#senjutsu {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_senjutsu.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#taijutsu {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_taijutsu.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#ninjutsu {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_ninjutsu.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#copy {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_cloning.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+
+
+#medical {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_medical.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#teleport {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_spacetime.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#general {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_general.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#shureken {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_shurikenjutsu.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#forribden {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_kinjutsu.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#secret {
+    height: 100%;
+    background: url("https://gen.jut.su/chakranature/background_hiden.jpg") no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#left-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+main main .bottom .main-content #left-content .water {
+    width: 90%;
+
+}
+
+main .bottom .main-content #left-content .water .about-water {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .bottom .main-content #left-content .water .about-water h2 {
+    margin: 0 0 5px 0;
+    border-bottom: 2px solid #acce0d;
+    padding-bottom: 5px;
+}
+
+main .bottom .main-content #left-content .water .about-water hr {
+    height: 2px;
+    background-color: #acce0d;
+}
+
+main .bottom .main-content #left-content .water .about-water p {
+    margin-top: 10px;
+}
+
+main .bottom .main-content #left-content #water-teqniq {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+main .bottom .main-content #left-content #water-teqniq .teqniq {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    flex-grow: 100%;
+}
+
+
+main .bottom .main-content #left-content #water-teqniq .teqniq a {
+    display: block;
+}
+
+main .bottom .main-content #left-content #water-teqniq .teqniq a img {
+    width: 300px;
+}
+
+main .bottom .main-content #left-content #water-teqniq .teqniq a:nth-child(1),
+main .bottom .main-content #left-content #water-teqniq .teqniq a:nth-child(3) {
+    margin: 10px auto;
+}
+
+main .bottom .main-content #left-content #water-teqniq .teqniq a:nth-child(1) {
+    color: #acce0d;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+main .bottom .main-content #left-content #water-teqniq .teqniq a:nth-child(3) {
+    width: 170px;
+    height: 35px;
+    background-color: #747373;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 30px;
+    margin: 20px auto 15px
+}
+
+main .bottom .main-content #left-content #water-teqniq .teqniq a:nth-child(3):hover {
+    background-color: #acce0d;
+    transition: all .5s ease;
+}
+
+
+
+main .bottom .main-content #left-content #water-teqniq .teqniq a:nth-child(1):hover {
+    text-decoration: underline;
+}
+
+
+
+main .bottom .main-content #left-content #water-teqniq .hr {
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
