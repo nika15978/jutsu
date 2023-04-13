@@ -40,6 +40,7 @@ header .navbar {
     transition: all .6s ease;
     text-align: center;
 
+
 }
 
 header .navbar ul {
@@ -409,6 +410,8 @@ main .middle .top .web-link label svg {
 
 .middle .top .web-link #middle-burger {
     background-color: #eef5cd !important;
+    overflow-y: scroll;
+    max-height: max-content;
 }
 
 main .middle .top .web-link #middle-burger a {

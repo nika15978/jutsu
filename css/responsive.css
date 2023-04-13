@@ -396,7 +396,10 @@
 
     header .navbar {
         width: 100%;
+
     }
+
+
 
     main .bottom .main-content .left-content {
         display: grid;
@@ -493,4 +496,21 @@
         width: 100%;
     }
 
+}
+
+@media screen and (max-width:340px) {
+    main .section-top a img {
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 280px;
+    }
+
+    main .middle .top .web-link .youtube {
+        display: none;
+    }
+
+    main .bottom .main-content .left-content {
+        margin: 0 auto;
+    }
 }
